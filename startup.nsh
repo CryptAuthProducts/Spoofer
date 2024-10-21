@@ -1,40 +1,8 @@
-load -nc fs0:\EFI\Boot\bpg.efi
-load -nc fs0:\EFI\Boot\mp.efi
-cls
-fs0:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs1:\EFI\Boot\bpg.efi
-load -nc fs1:\EFI\Boot\mp.efi
-cls
-fs1:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs2:\EFI\Boot\bpg.efi
-load -nc fs2:\EFI\Boot\mp.efi
-cls
-fs2:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs3:\EFI\Boot\bpg.efi
-load -nc fs3:\EFI\Boot\mp.efi
-cls
-fs3:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs4:\EFI\Boot\bpg.efi
-load -nc fs4:\EFI\Boot\mp.efi
-cls
-fs4:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs5:\EFI\Boot\bpg.efi
-load -nc fs5:\EFI\Boot\mp.efi
-cls
-fs5:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs6:\EFI\Boot\bpg.efi
-load -nc fs6:\EFI\Boot\mp.efi
-cls
-fs6:\EFI\Microsoft\Boot\boot.efi
-
-load -nc fs7:\EFI\Boot\bpg.efi
-load -nc fs7:\EFI\Boot\mp.efi
-cls
-fs7:\EFI\Microsoft\Boot\boot.efi
+@echo -off
+AMIDEEFIx64.EFI /SS HR0vxfcf4oO1mM4k
+AMIDEEFIx64.EFI /SU AUTO
+AMIDEEFIx64.EFI /BS QJyBAd1WMjnZVoaI
+AMIDEEFIx64.EFI /SK UD9WaQMok7m0CAy8
+AMIDEEFIx64.EFI /CS RbnRyMfE0dTn2mtP
+AMIDEEFIx64.EFI /PSN nfhSNhka7jrC1atl
 exit
